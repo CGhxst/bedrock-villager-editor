@@ -1,0 +1,71 @@
+{
+  "name": "bedrock-villager-editor",
+  "version": "1.0.0",
+  "productName": "Bedrock Villager Editor",
+  "description": "Unofficial desktop and CLI villager editor for Minecraft: Bedrock Edition with patch-oriented NBT preservation, backups, rollback, trade editing, and a read-only world map.",
+  "main": "dist/src/electron/main.js",
+  "bin": {
+    "villager-editor": "./bin/villager-editor.js"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "files": [
+    "dist/src/**/*",
+    "dist/public/**/*",
+    "bin/villager-editor.js",
+    "bin/villager-editor.cmd",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "scripts": {
+    "build": "node scripts/generate-asset-manifest.js && tsc && node scripts/verify-public-js.js && node scripts/verify-renderer-contract.js && node scripts/copy-public.js && node scripts/verify-build.js",
+    "start": "npm run build && electron .",
+    "app": "electron .",
+    "cli": "node bin/villager-editor.js",
+    "test": "npm run build && node scripts/run-tests.js",
+    "validate:synthetic": "npm run build && node scripts/validate-synthetic-world.js",
+    "prepack": "npm run build",
+    "package:win": "npm run build && electron-forge package --platform=win32 --arch=x64",
+    "make:win": "npm run build && electron-forge make --platform=win32 --arch=x64",
+    "make:win:signed": "node scripts/verify-release-signing.js && npm run build && electron-forge make --platform=win32 --arch=x64",
+    "release:verify": "npm run build && npm test && npm run validate:synthetic",
+    "release:verify:stable": "node scripts/verify-release-metadata.js --stable && node scripts/verify-release-signing.js && npm run release:verify",
+    "sync:assets": "node scripts/sync-all-versions.js"
+  },
+  "keywords": [
+    "minecraft",
+    "bedrock",
+    "villager",
+    "trades",
+    "leveldb",
+    "nbt",
+    "editor",
+    "desktop",
+    "electron"
+  ],
+  "author": "cghxst",
+  "license": "MIT",
+  "dependencies": {
+    "@8crafter/leveldb-zlib": "^1.6.0",
+    "archiver": "^7.0.1",
+    "commander": "^12.1.0",
+    "electron-squirrel-startup": "1.0.1",
+    "extract-zip": "^2.0.1",
+    "prismarine-nbt": "^2.7.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "7.11.2",
+    "@electron-forge/maker-squirrel": "7.11.2",
+    "@electron-forge/plugin-auto-unpack-natives": "7.11.2",
+    "@types/archiver": "^6.0.3",
+    "@types/electron-squirrel-startup": "1.0.2",
+    "@types/extract-zip": "^2.0.0",
+    "@types/node": "^22.17.2",
+    "electron": "^43.4.0",
+    "minecraft-assets": "^1.18.0",
+    "typescript": "^5.7.3"
+  }
+}

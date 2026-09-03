@@ -1,0 +1,43 @@
+{
+  "type": "compound",
+  "name": "",
+  "value": {
+    "POI": {
+      "type": "list",
+      "value": {
+        "type": "compound",
+        "value": [
+          {
+            "VillagerID": { "type": "long", "value": [0, 9001] },
+            "instances": {
+              "type": "list",
+              "value": {
+                "type": "compound",
+                "value": [
+                  {
+                    "Skip": { "type": "byte", "value": 0 },
+                    "Type": { "type": "int", "value": 2 },
+                    "X": { "type": "int", "value": 112 },
+                    "Y": { "type": "int", "value": 68 },
+                    "Z": { "type": "int", "value": -240 },
+                    "Name": { "type": "string", "value": "minecraft:lectern" },
+                    "ExtraTag": { "type": "int", "value": 42 }
+                  },
+                  {
+                    "Skip": { "type": "byte", "value": 0 },
+                    "Type": { "type": "int", "value": 0 },
+                    "X": { "type": "int", "value": 114 },
+                    "Y": { "type": "int", "value": 68 },
+                    "Z": { "type": "int", "value": -238 },
+                    "Name": { "type": "string", "value": "minecraft:bed" },
+                    "Color": { "type": "byte", "value": 14 }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
