@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none';"
+  />
+  <title>Bedrock Villager Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="app-brand">
+          <span class="app-title">Bedrock Villager Editor</span>
+        </div>
+        <div id="worldBreadcrumb" class="world-badge hidden">
+          <span id="currentWorldName">World</span>
+          <button id="btnSwitchWorld" class="btn btn-sm btn-outline" title="Switch World">← Switch</button>
+        </div>
+      </div>
+      <div class="header-right">
+        <span id="operationStatus" class="operation-status hidden" role="status" aria-live="polite"></span>
+        <div id="sessionControls" class="session-controls hidden">
+          <button id="btnUndo" class="btn btn-sm btn-icon" disabled aria-label="Undo" title="Undo (Ctrl+Z)">↶</button>
+          <button id="btnRedo" class="btn btn-sm btn-icon" disabled aria-label="Redo" title="Redo (Ctrl+Y)">↷</button>
+          <span id="dirtyIndicator" class="dirty-badge hidden">Unsaved Changes</span>
+        </div>
+        <button id="btnBulkActionsMenu" class="btn btn-sm btn-secondary hidden">Bulk Actions</button>
+        <button id="btnBackupsMenu" class="btn btn-sm btn-secondary hidden">Backups</button>
+        <button id="btnSaveToWorld" class="btn btn-sm btn-primary hidden" disabled>Save</button>
+      </div>
+    </header>
+
+    <!-- Restart Required Banner -->
+    <div
+      id="restartRequiredBanner"
+      class="warning-banner danger-banner hidden"
+      role="alert"
+      aria-live="assertive"
+    >
+      <strong>Restart required.</strong>
+      <span id="restartRequiredBannerText"></span>
+    </div>
+
+    <!-- Unknown Profession Banner -->
+    <div id="unknownProfessionBanner" class="warning-banner hidden" role="status">
+      <span id="unknownProfessionBannerText"></span>
+    </div>
+
+    <!-- Main Container -->
+    <main class="app-body">
+      <!-- 1. World Picker View -->
+      <section id="worldPickerView" class="view-panel">
+        <div class="panel-header">
+          <h2>Select a Minecraft Bedrock World</h2>
+          <div class="panel-actions">
+            <input type="text" id="worldSearchInput" class="input-search" placeholder="Search worlds...">
+            <button id="btnRefreshWorlds" class="btn btn-secondary" title="Refresh Worlds">↻ Refresh</button>
+            <button id="btnBrowseFolder" class="btn btn-outline">Browse Folder...</button>
+          </div>
+        </div>
+        <div id="worldsGrid" class="worlds-grid">
+          <!-- Populated by app.js -->
+        </div>
+      </section>
+
+      <!-- 2. Villager Editor View -->
+      <section id="villagerEditorView" class="view-panel hidden">
+        <div class="editor-layout">
+          <!-- Left: Villager List Sidebar -->
+          <aside class="villagers-sidebar">
+            <div class="sidebar-header">
+              <div class="search-row">
+                <input type="text" id="villagerSearchInput" class="input-search" placeholder="Filter villagers...">
+              </div>
+              <div class="sidebar-action-row">
+                <button id="btnOpenWorldMap" type="button" class="btn btn-outline btn-map-open" title="Open read-only world map">World Map</button>
+                <button id="btnExportJson" type="button" class="btn btn-outline" title="Export all villagers to editable JSON">Export JSON</button>
+                <button id="btnImportJson" type="button" class="btn btn-outline" title="Import edited villagers from JSON">Import JSON</button>
+              </div>
+              <div class="filter-row">
+                <select id="professionFilter" class="select-filter">
+                  <option value="all">All Professions</option>
+                </select>
+                <select id="tierFilter" class="select-filter">
+                  <option value="all">All Tiers</option>
+                  <option value="1">Tier 1 (Novice)</option>
+                  <option value="2">Tier 2 (Apprentice)</option>
+                  <option value="3">Tier 3 (Journeyman)</option>
+                  <option value="4">Tier 4 (Expert)</option>
+                  <option value="5">Tier 5 (Master)</option>
+                </select>
+              </div>
+              <div class="stats-summary" id="statsSummary">
+                <!-- Stats summary chips -->
+              </div>
+            </div>
+            <div class="villagers-list" id="villagersList">
+              <!-- Villager list cards -->
+            </div>
+          </aside>
+
+          <!-- Right: Detailed Villager Inspector -->
+          <section class="villager-detail-panel" id="villagerDetailPanel">
+            <div id="emptyDetailPlaceholder" class="empty-placeholder">
+              <p>Select a villager from the sidebar to view and edit trades.</p>
+            </div>
+
+            <div id="activeVillagerContent" class="villager-content hidden">
+              <!-- Top Detail Bar -->
+              <div class="detail-header-card">
+                <div class="detail-prof-icon-wrapper" id="detailProfIconWrapper">
+                  <!-- Injected icon -->
+                </div>
+                <div class="detail-info-main">
+                  <div class="name-edit-row">
+                    <input type="text" id="editVillagerName" class="input-title" placeholder="Unnamed Villager">
+                    <span id="villagerIdBadge" class="badge badge-dim">ID</span>
+                  </div>
+                  <div class="meta-pills">
+                    <span id="badgeDimension" class="badge badge-meta">Overworld</span>
+                    <span id="badgeCoordinates" class="badge badge-meta">X: 0 Y: 0 Z: 0</span>
+                    <span id="badgeStatus" class="badge badge-meta hidden">Zombie</span>
+                  </div>
+                </div>
+                <div class="detail-header-actions">
+                  <button id="btnVillagerSetCostsOne" class="btn btn-sm btn-secondary" type="button">Set Costs to 1</button>
+                  <button id="btnVillagerRestock" class="btn btn-sm btn-secondary" type="button">Reset Uses to 0</button>
+                  <button id="btnVillagerHighStock" class="btn btn-sm btn-secondary" type="button">Set Max Uses to 9999</button>
+                </div>
+              </div>
+
+              <!-- Tabs Header -->
+              <div class="tabs-nav">
+                <button class="tab-btn active" data-tab="tradesTab">Trades & Offers</button>
+                <button class="tab-btn" data-tab="professionTab">Profession & Level</button>
+                <button class="tab-btn" data-tab="linksTab">Links & POI</button>
+                <button class="tab-btn" data-tab="advancedTab">NBT & Raw Data</button>
+              </div>
+
+              <!-- Tab Contents -->
+              <div class="tab-body">
+                <!-- Tab 1: Trades -->
+                <div id="tradesTab" class="tab-pane active">
+                  <div class="trades-toolbar">
+                    <h3>Trade Recipes (<span id="tradeCountLabel">0</span>)</h3>
+                    <button id="btnAddTrade" class="btn btn-sm btn-outline">+ Add New Trade</button>
+                  </div>
+                  <div id="tradesContainer" class="trades-container">
+                    <!-- Trade recipe cards -->
+                  </div>
+                </div>
+
+                <!-- Tab 2: Profession & Level -->
+                <div id="professionTab" class="tab-pane">
+                  <div class="form-card">
+                    <div class="form-group">
+                      <label for="selectProfession">Profession:</label>
+                      <select id="selectProfession" class="select-field"></select>
+                    </div>
+                    <div class="form-group">
+                      <label for="selectCareerLevel">Career Level:</label>
+                      <div class="input-with-action">
+                        <select id="selectCareerLevel" class="select-field">
+                          <option value="1">Tier 1 - Novice</option>
+                          <option value="2">Tier 2 - Apprentice</option>
+                          <option value="3">Tier 3 - Journeyman</option>
+                          <option value="4">Tier 4 - Expert</option>
+                          <option value="5">Tier 5 - Master</option>
+                        </select>
+                        <button id="btnSetTierMaster" type="button" class="btn btn-sm btn-outline">Set Tier to Master</button>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputExperience">Trade Experience (XP):</label>
+                      <input type="number" id="inputExperience" class="input-field" min="0">
+                    </div>
+                  </div>
+
+                  <div class="form-card mt-3">
+                    <h3>Villager Position</h3>
+                    <p class="section-desc">
+                      Edit the villager entity position. This does not move workstation or bed links.
+                    </p>
+                    <div class="coord-group">
+                      <label>X: <input id="inputPositionX" type="number" step="any" class="input-coord" /></label>
+                      <label>Y: <input id="inputPositionY" type="number" step="any" class="input-coord" /></label>
+                      <label>Z: <input id="inputPositionZ" type="number" step="any" class="input-coord" /></label>
+                    </div>
+                    <div class="coord-actions mt-3">
+                      <button id="btnApplyPosition" type="button" class="btn btn-primary">Apply Position</button>
+                      <button id="btnCopyCoordinates" type="button" class="btn btn-outline">Copy Coordinates</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Tab 3: Links (Inspection Only) -->
+                <div id="linksTab" class="tab-pane">
+                  <div class="form-card">
+                    <p class="section-desc">Link information is read-only in this build.</p>
+                    <div class="link-section">
+                      <h3>Linked Workstation (Job Site)</h3>
+                      <div id="linkedWorkstationInfo" class="link-info-box">
+                        <div id="linkedWsText">No linked job-site coordinate.</div>
+                      </div>
+                    </div>
+
+                    <div class="link-section mt-4">
+                      <h3>Linked Bed</h3>
+                      <div id="linkedBedInfo" class="link-info-box">
+                        <div id="linkedBedText">No linked bed coordinate.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Tab 4: NBT & Raw Data (Read-Only Inspection) -->
+                <div id="advancedTab" class="tab-pane">
+                  <div class="form-card">
+                    <p class="section-desc">Read-only diagnostic view of the underlying LevelDB actor record and NBT tags.</p>
+                    <div class="debug-meta-grid">
+                      <div><strong>Entity ID:</strong> <span id="advEntityId"></span></div>
+                      <div><strong>Profession Source:</strong> <span id="advProfSource"></span></div>
+                      <div><strong>Encoding Format:</strong> <span id="advEncodingFormat"></span></div>
+                      <div><strong>Original Byte Hash:</strong> <span id="advOriginalHash" class="mono-text"></span></div>
+                    </div>
+                    <textarea id="advRawNbtText" class="textarea-code" readonly rows="16"></textarea>
+                    <div class="mt-2">
+                      <button id="btnCopyRawNbt" type="button" class="btn btn-outline">Copy Raw NBT JSON</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <!-- Toast Notifications Container -->
+    <div id="toastContainer" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+    <!-- Dialogs -->
+    <!-- 1. Confirmation Modal -->
+    <dialog id="confirmDialog" class="modal-dialog">
+      <div class="modal-content">
+        <h3 id="confirmDialogTitle">Confirm Action</h3>
+        <p id="confirmDialogMessage">Are you sure?</p>
+        <div class="modal-actions">
+          <button id="confirmDialogCancel" class="btn btn-secondary">Cancel</button>
+          <button id="confirmDialogAccept" class="btn btn-primary">Confirm</button>
+        </div>
+      </div>
+    </dialog>
+
+    <!-- 2. Item Picker Modal -->
+    <dialog id="itemPickerModal" class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Select Item</h3>
+          <button id="btnCloseItemPicker" class="btn-close">×</button>
+        </div>
+        <div class="modal-search-row">
+          <input type="text" id="itemPickerSearch" class="input-search" placeholder="Search catalog...">
+        </div>
+        <div class="raw-id-input-section">
+          <label for="customItemIdInput">Custom Bedrock Item ID:</label>
+          <div class="raw-id-input-row">
+            <input type="text" id="customItemIdInput" class="input-field" placeholder="minecraft:custom_item">
+            <button id="btnApplyCustomItemId" class="btn btn-secondary">Use ID</button>
+          </div>
+        </div>
+        <div id="itemPickerGrid" class="items-picker-grid">
+          <!-- Item icons -->
+        </div>
+      </div>
+    </dialog>
+
+    <!-- 3. Enchantment Picker Modal -->
+    <dialog id="enchantPickerModal" class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Select Enchantment</h3>
+          <button id="btnCloseEnchantPicker" class="btn-close">×</button>
+        </div>
+        <div class="modal-search-row">
+          <input type="text" id="enchantPickerSearch" class="input-search" placeholder="Search enchantments...">
+        </div>
+        <div id="enchantPickerList" class="enchant-picker-list">
+          <!-- Enchantment items with per-row level input -->
+        </div>
+      </div>
+    </dialog>
+
+    <!-- 4. Save Review Modal -->
+    <dialog id="saveReviewModal" class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Save Review & Confirmation</h3>
+          <button id="btnCloseSaveReview" class="btn-close">×</button>
+        </div>
+        <p class="section-desc">Review your changes before committing to the Bedrock LevelDB world save. This is experimental community software; always keep separate backups of important worlds.</p>
+        <div class="backup-guarantee-box">
+          An automated timestamped <code>.zip</code> backup will be created in application backup storage before writing.
+        </div>
+        <div id="saveReviewDiffContainer" class="save-diff-container">
+          <!-- Populated by app.js -->
+        </div>
+        <div class="modal-actions">
+          <button id="btnCancelSaveReview" class="btn btn-secondary">Cancel</button>
+          <button id="btnConfirmSaveToWorld" class="btn btn-primary">Save to World</button>
+        </div>
+      </div>
+    </dialog>
+
+    <!-- 5. Bulk Actions Modal -->
+    <dialog id="bulkActionsModal" class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Bulk World Operations</h3>
+          <button id="btnCloseBulkActions" class="btn-close">×</button>
+        </div>
+        <div class="bulk-actions-list">
+          <div class="bulk-action-item">
+            <div>
+              <strong>Set All Trade Costs to 1</strong>
+              <p class="action-desc">Sets every cost quantity in this world to 1 (emeralds, items). Max stock and uses remain unchanged.</p>
+            </div>
+            <button id="btnBulkSetCostsOne" class="btn btn-secondary">Apply to All</button>
+          </div>
+          <div class="bulk-action-item">
+            <div>
+              <strong>Restock All Trades (Reset Uses to 0)</strong>
+              <p class="action-desc">Resets traded count to 0 on all offers across all villagers, immediately unlocking locked trades.</p>
+            </div>
+            <button id="btnBulkRestock" class="btn btn-secondary">Restock All</button>
+          </div>
+          <div class="bulk-action-item">
+            <div>
+              <strong>Set Max Stock (9999 Uses)</strong>
+              <p class="action-desc">Sets maximum uses on all trades to 9999 so offers rarely lock out.</p>
+            </div>
+            <button id="btnBulkMaxUses" class="btn btn-secondary">Set Max Uses</button>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <!-- 6. Read-Only World Map -->
+    <dialog id="worldMapModal" class="modal-dialog world-map-dialog">
+      <div class="modal-content world-map-content">
+        <div class="modal-header world-map-header">
+          <div>
+            <h3>Villager World Map</h3>
+            <p class="section-desc world-map-description">Read-only biome-colored terrain preview derived from generated Bedrock chunk height and biome data with subtle elevation shading; villager markers use their current session X/Z positions.</p>
+          </div>
+          <button id="btnCloseWorldMap" class="btn-close" type="button" aria-label="Close world map">×</button>
+        </div>
+
+        <div class="world-map-toolbar">
+          <label class="world-map-control">
+            Dimension
+            <select id="worldMapDimension" class="select-filter">
+              <option value="0">Overworld</option>
+              <option value="1">Nether</option>
+              <option value="2">The End</option>
+            </select>
+          </label>
+          <div class="world-map-zoom-controls" aria-label="Map zoom controls">
+            <button id="btnWorldMapZoomOut" type="button" class="btn btn-sm btn-outline" title="Zoom out">−</button>
+            <span id="worldMapZoomLabel" class="world-map-zoom-label">100%</span>
+            <button id="btnWorldMapZoomIn" type="button" class="btn btn-sm btn-outline" title="Zoom in">+</button>
+          </div>
+          <button id="btnWorldMapCenterSelected" type="button" class="btn btn-sm btn-secondary">Center Selected</button>
+          <button id="btnWorldMapFitVillagers" type="button" class="btn btn-sm btn-secondary">Fit Villagers</button>
+          <button id="btnWorldMapEditSelected" type="button" class="btn btn-sm btn-primary">Edit Selected Villager</button>
+        </div>
+
+        <div id="worldMapViewport" class="world-map-viewport">
+          <canvas id="worldMapCanvas" tabindex="0" aria-label="Overhead terrain map with villager markers" aria-describedby="worldMapHelp"></canvas>
+          <div id="worldMapTooltip" class="world-map-tooltip hidden" role="status"></div>
+          <div id="worldMapLoading" class="world-map-loading hidden" role="status">Loading terrain…</div>
+          <div id="worldMapMessage" class="world-map-message hidden" role="status"></div>
+        </div>
+
+        <div class="world-map-footer">
+          <span id="worldMapCoordinates" class="mono-text">X: 0 Z: 0</span>
+          <span id="worldMapSelectedLabel">No villager selected</span>
+          <span id="worldMapHelp" class="world-map-help">Drag or Arrow keys to pan. Wheel or +/- to zoom. Click a marker to select.</span>
+          <span class="world-map-legend"><span class="world-map-marker-swatch"></span> Villager marker</span>
+        </div>
+      </div>
+    </dialog>
+
+    <!-- 7. Backups Management Modal -->
+    <dialog id="backupsModal" class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>World Backup Manager</h3>
+          <button id="btnCloseBackups" class="btn-close">×</button>
+        </div>
+        <div class="backup-manager-top">
+          <button id="btnCreateManualBackup" class="btn btn-primary">+ Create Backup Now</button>
+          <button id="btnRevealBackupFolder" class="btn btn-outline">Open Backups Folder</button>
+        </div>
+        <div id="backupsListContainer" class="backups-list-container">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+    </dialog>
+  </div>
+
+  <script src="icons.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

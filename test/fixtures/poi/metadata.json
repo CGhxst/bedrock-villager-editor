@@ -1,0 +1,9 @@
+{
+  "source": "sanitized Minecraft-created copy-world POI record",
+  "minecraftVersion": "1.21.0",
+  "rolesObserved": [
+    "workstation",
+    "bed"
+  ],
+  "notes": "No original world was modified."
+}
