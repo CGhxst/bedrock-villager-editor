@@ -1,0 +1,7158 @@
+{
+  "policy": "newest-supported-version-first",
+  "generatedAt": "2026-09-03T21:17:52.381Z",
+  "assets": {
+    "blocks/acacia_door_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/acacia_door_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/acacia_leaves.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/acacia_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/acacia_log_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/acacia_planks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/acacia_sapling.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/acacia_shelf.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/acacia_trapdoor.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/activator_rail.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/activator_rail_on.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/allium.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/amethyst_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/amethyst_cluster.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/ancient_debris_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/ancient_debris_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/andesite.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/anvil.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/anvil_base.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/anvil_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/anvil_top_damaged_0.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/anvil_top_damaged_1.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/anvil_top_damaged_2.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/attached_melon_stem.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/attached_pumpkin_stem.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/azalea_leaves.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/azalea_plant.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/azalea_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/azalea_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/azure_bluet.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bamboo_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bamboo_block_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bamboo_door_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bamboo_door_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bamboo_fence.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bamboo_fence_gate.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bamboo_fence_gate_particle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bamboo_fence_particle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bamboo_large_leaves.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bamboo_mosaic.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bamboo_planks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bamboo_shelf.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bamboo_singleleaf.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bamboo_small_leaves.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bamboo_stage0.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bamboo_stalk.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bamboo_trapdoor.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/barrel_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/barrel_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/barrel_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/barrel_top_open.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/basalt_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/basalt_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/beacon.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bed_feet_end.png": {
+      "sourceVersion": "1.11.2"
+    },
+    "blocks/bed_feet_side.png": {
+      "sourceVersion": "1.11.2"
+    },
+    "blocks/bed_feet_top.png": {
+      "sourceVersion": "1.11.2"
+    },
+    "blocks/bed_head_end.png": {
+      "sourceVersion": "1.11.2"
+    },
+    "blocks/bed_head_side.png": {
+      "sourceVersion": "1.11.2"
+    },
+    "blocks/bed_head_top.png": {
+      "sourceVersion": "1.11.2"
+    },
+    "blocks/bedrock.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bee_nest_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bee_nest_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bee_nest_front_honey.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bee_nest_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bee_nest_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/beehive_end.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/beehive_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/beehive_front_honey.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/beehive_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/beetroots_stage0.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/beetroots_stage1.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/beetroots_stage2.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/beetroots_stage3.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/beetroots_stage_0.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/beetroots_stage_1.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/beetroots_stage_2.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/beetroots_stage_3.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/bell_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bell_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bell_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/big_dripleaf_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/big_dripleaf_stem.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/big_dripleaf_tip.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/big_dripleaf_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/birch_door_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/birch_door_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/birch_leaves.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/birch_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/birch_log_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/birch_planks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/birch_sapling.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/birch_shelf.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/birch_trapdoor.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/black_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/black_candle_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/black_concrete.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/black_concrete_powder.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/black_glazed_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/black_shulker_box.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/black_stained_glass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/black_stained_glass_pane_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/black_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/black_wool.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/blackstone.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/blackstone_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/blast_furnace_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/blast_furnace_front_on.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/blast_furnace_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/blast_furnace_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/blue_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/blue_candle_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/blue_concrete.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/blue_concrete_powder.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/blue_glazed_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/blue_ice.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/blue_orchid.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/blue_shulker_box.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/blue_stained_glass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/blue_stained_glass_pane_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/blue_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/blue_wool.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bone_block_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bone_block_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bookshelf.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/brain_coral.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/brain_coral_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/brain_coral_fan.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/brewing_stand.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/brewing_stand_base.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/brick.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/brown_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/brown_candle_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/brown_concrete.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/brown_concrete_powder.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/brown_glazed_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/brown_mushroom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/brown_mushroom_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/brown_shulker_box.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/brown_stained_glass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/brown_stained_glass_pane_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/brown_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/brown_wool.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bubble_coral.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bubble_coral_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bubble_coral_fan.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/budding_amethyst.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/bush.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cactus_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cactus_flower.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cactus_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cactus_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cake_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cake_inner.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cake_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cake_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/calcite.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/calibrated_sculk_sensor_amethyst.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/calibrated_sculk_sensor_input_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/calibrated_sculk_sensor_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/campfire_fire.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/campfire_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/campfire_log_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/candle_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/carrots_stage0.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/carrots_stage1.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/carrots_stage2.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/carrots_stage3.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/carrots_stage_0.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/carrots_stage_1.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/carrots_stage_2.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/carrots_stage_3.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/cartography_table_side1.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cartography_table_side2.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cartography_table_side3.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cartography_table_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/carved_pumpkin.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cauldron_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cauldron_inner.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cauldron_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cauldron_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cave_vines.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cave_vines_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cave_vines_plant.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cave_vines_plant_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chain.png": {
+      "sourceVersion": "1.21.8"
+    },
+    "blocks/chain_command_block_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chain_command_block_conditional.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chain_command_block_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chain_command_block_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cherry_door_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cherry_door_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cherry_leaves.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cherry_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cherry_log_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cherry_planks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cherry_sapling.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cherry_shelf.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cherry_trapdoor.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chipped_anvil_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chiseled_bookshelf_empty.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chiseled_bookshelf_occupied.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chiseled_bookshelf_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chiseled_bookshelf_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chiseled_copper.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chiseled_deepslate.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chiseled_nether_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chiseled_polished_blackstone.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chiseled_quartz_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chiseled_quartz_block_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chiseled_red_sandstone.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chiseled_resin_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chiseled_sandstone.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chiseled_stone_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chiseled_tuff.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chiseled_tuff_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chiseled_tuff_bricks_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chiseled_tuff_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chorus_flower.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chorus_flower_dead.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/chorus_plant.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/clay.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/closed_eyeblossom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/coal_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/coal_ore.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/coarse_dirt.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cobbled_deepslate.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cobblestone.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cobblestone_mossy.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/cobweb.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cocoa_stage0.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cocoa_stage1.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cocoa_stage2.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cocoa_stage_0.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/cocoa_stage_1.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/cocoa_stage_2.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/command_block.png": {
+      "sourceVersion": "1.8.8"
+    },
+    "blocks/command_block_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/command_block_conditional.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/command_block_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/command_block_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/comparator.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/comparator_off.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/comparator_on.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/composter_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/composter_compost.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/composter_ready.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/composter_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/composter_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/concrete_black.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_blue.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_brown.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_cyan.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_gray.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_green.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_light_blue.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_lime.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_magenta.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_orange.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_pink.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_powder_black.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_powder_blue.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_powder_brown.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_powder_cyan.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_powder_gray.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_powder_green.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_powder_light_blue.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_powder_lime.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_powder_magenta.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_powder_orange.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_powder_pink.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_powder_purple.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_powder_red.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_powder_silver.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_powder_white.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_powder_yellow.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_purple.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_red.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_silver.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_white.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/concrete_yellow.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/conduit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/copper_bars.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/copper_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/copper_bulb.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/copper_bulb_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/copper_bulb_lit_powered.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/copper_bulb_powered.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/copper_chain.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/copper_door_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/copper_door_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/copper_grate.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/copper_lantern.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/copper_ore.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/copper_torch.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/copper_trapdoor.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cornflower.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cracked_deepslate_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cracked_deepslate_tiles.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cracked_nether_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cracked_polished_blackstone_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cracked_stone_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crafter_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crafter_east.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crafter_east_crafting.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crafter_east_triggered.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crafter_north.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crafter_north_crafting.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crafter_south.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crafter_south_triggered.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crafter_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crafter_top_crafting.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crafter_top_triggered.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crafter_west.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crafter_west_crafting.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crafter_west_triggered.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crafting_table_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crafting_table_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crafting_table_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/creaking_heart.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/creaking_heart_active.png": {
+      "sourceVersion": "1.21.4"
+    },
+    "blocks/creaking_heart_awake.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/creaking_heart_dormant.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/creaking_heart_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/creaking_heart_top_active.png": {
+      "sourceVersion": "1.21.4"
+    },
+    "blocks/creaking_heart_top_awake.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/creaking_heart_top_dormant.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crimson_door_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crimson_door_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crimson_fungus.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crimson_nylium.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crimson_nylium_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crimson_planks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crimson_roots.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crimson_roots_pot.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crimson_shelf.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crimson_stem.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crimson_stem_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crimson_trapdoor.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/crying_obsidian.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cut_copper.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cut_red_sandstone.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cut_sandstone.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cyan_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cyan_candle_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cyan_concrete.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cyan_concrete_powder.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cyan_glazed_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cyan_shulker_box.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cyan_stained_glass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cyan_stained_glass_pane_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cyan_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/cyan_wool.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/damaged_anvil_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dandelion.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dark_oak_door_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dark_oak_door_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dark_oak_leaves.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dark_oak_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dark_oak_log_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dark_oak_planks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dark_oak_sapling.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dark_oak_shelf.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dark_oak_trapdoor.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dark_prismarine.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/daylight_detector_inverted_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/daylight_detector_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/daylight_detector_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dead_brain_coral.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dead_brain_coral_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dead_brain_coral_fan.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dead_bubble_coral.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dead_bubble_coral_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dead_bubble_coral_fan.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dead_bush.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dead_fire_coral.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dead_fire_coral_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dead_fire_coral_fan.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dead_horn_coral.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dead_horn_coral_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dead_horn_coral_fan.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dead_tube_coral.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dead_tube_coral_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dead_tube_coral_fan.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/deadbush.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/debug.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/debug2.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/deepslate.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/deepslate_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/deepslate_coal_ore.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/deepslate_copper_ore.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/deepslate_diamond_ore.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/deepslate_emerald_ore.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/deepslate_gold_ore.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/deepslate_iron_ore.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/deepslate_lapis_ore.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/deepslate_redstone_ore.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/deepslate_tiles.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/deepslate_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/destroy_stage_0.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/destroy_stage_1.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/destroy_stage_2.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/destroy_stage_3.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/destroy_stage_4.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/destroy_stage_5.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/destroy_stage_6.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/destroy_stage_7.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/destroy_stage_8.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/destroy_stage_9.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/detector_rail.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/detector_rail_on.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/diamond_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/diamond_ore.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/diorite.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dirt.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dirt_path_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dirt_path_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dirt_podzol_side.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/dirt_podzol_top.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/dispenser_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dispenser_front_horizontal.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/dispenser_front_vertical.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/door_acacia_lower.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/door_acacia_upper.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/door_birch_lower.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/door_birch_upper.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/door_dark_oak_lower.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/door_dark_oak_upper.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/door_iron_lower.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/door_iron_upper.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/door_jungle_lower.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/door_jungle_upper.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/door_spruce_lower.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/door_spruce_upper.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/door_wood_lower.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/door_wood_upper.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/double_plant_fern_bottom.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/double_plant_fern_top.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/double_plant_grass_bottom.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/double_plant_grass_top.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/double_plant_paeonia_bottom.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/double_plant_paeonia_top.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/double_plant_rose_bottom.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/double_plant_rose_top.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/double_plant_sunflower_back.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/double_plant_sunflower_bottom.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/double_plant_sunflower_front.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/double_plant_sunflower_top.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/double_plant_syringa_bottom.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/double_plant_syringa_top.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/dragon_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_0_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_0_east.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_0_north.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_0_south.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_0_tentacles.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_0_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_0_west.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_1_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_1_east.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_1_north.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_1_south.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_1_tentacles.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_1_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_1_west.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_2_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_2_east.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_2_north.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_2_south.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_2_tentacles.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_2_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_2_west.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_3_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_3_east.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_3_north.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_3_south.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_3_tentacles.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_3_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_ghast_hydration_3_west.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_kelp_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_kelp_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dried_kelp_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dripstone_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dropper_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/dropper_front_horizontal.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/dropper_front_vertical.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/emerald_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/emerald_ore.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/enchanting_table_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/enchanting_table_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/enchanting_table_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/end_bricks.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/end_portal_frame_eye.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/end_portal_frame_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/end_portal_frame_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/end_rod.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/end_stone.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/end_stone_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/endframe_eye.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/endframe_side.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/endframe_top.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/exposed_chiseled_copper.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/exposed_copper.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/exposed_copper_bars.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/exposed_copper_bulb.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/exposed_copper_bulb_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/exposed_copper_bulb_lit_powered.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/exposed_copper_bulb_powered.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/exposed_copper_chain.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/exposed_copper_door_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/exposed_copper_door_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/exposed_copper_grate.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/exposed_copper_lantern.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/exposed_copper_trapdoor.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/exposed_cut_copper.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/exposed_lightning_rod.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/farmland.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/farmland_dry.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/farmland_moist.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/farmland_wet.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/fern.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/fire_0.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/fire_1.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/fire_coral.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/fire_coral_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/fire_coral_fan.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/fire_layer_0.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/fire_layer_1.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/firefly_bush.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/firefly_bush_emissive.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/fletching_table_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/fletching_table_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/fletching_table_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/flower_allium.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/flower_blue_orchid.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/flower_dandelion.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/flower_houstonia.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/flower_oxeye_daisy.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/flower_paeonia.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/flower_pot.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/flower_rose.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/flower_tulip_orange.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/flower_tulip_pink.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/flower_tulip_red.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/flower_tulip_white.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/flowering_azalea_leaves.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/flowering_azalea_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/flowering_azalea_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/frogspawn.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/frosted_ice_0.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/frosted_ice_1.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/frosted_ice_2.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/frosted_ice_3.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/furnace_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/furnace_front_off.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/furnace_front_on.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/furnace_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/furnace_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/gilded_blackstone.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/glass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/glass_black.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_blue.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_brown.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_cyan.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_gray.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_green.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_light_blue.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_lime.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_magenta.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_orange.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_pane_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/glass_pane_top_black.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_pane_top_blue.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_pane_top_brown.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_pane_top_cyan.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_pane_top_gray.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_pane_top_green.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_pane_top_light_blue.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_pane_top_lime.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_pane_top_magenta.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_pane_top_orange.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_pane_top_pink.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_pane_top_purple.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_pane_top_red.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_pane_top_silver.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_pane_top_white.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_pane_top_yellow.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_pink.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_purple.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_red.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_silver.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_white.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glass_yellow.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glazed_terracotta_black.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glazed_terracotta_blue.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glazed_terracotta_brown.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glazed_terracotta_cyan.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glazed_terracotta_gray.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glazed_terracotta_green.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glazed_terracotta_light_blue.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glazed_terracotta_lime.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glazed_terracotta_magenta.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glazed_terracotta_orange.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glazed_terracotta_pink.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glazed_terracotta_purple.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glazed_terracotta_red.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glazed_terracotta_silver.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glazed_terracotta_white.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glazed_terracotta_yellow.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/glow_item_frame.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/glow_lichen.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/glowstone.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/gold_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/gold_ore.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/golden_dandelion.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/granite.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/grass.png": {
+      "sourceVersion": "1.20.2"
+    },
+    "blocks/grass_block_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/grass_block_side_overlay.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/grass_block_snow.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/grass_block_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/grass_path_side.png": {
+      "sourceVersion": "1.16.4"
+    },
+    "blocks/grass_path_top.png": {
+      "sourceVersion": "1.16.4"
+    },
+    "blocks/grass_side.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/grass_side_overlay.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/grass_side_snowed.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/grass_top.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/gravel.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/gray_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/gray_candle_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/gray_concrete.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/gray_concrete_powder.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/gray_glazed_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/gray_shulker_box.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/gray_stained_glass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/gray_stained_glass_pane_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/gray_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/gray_wool.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/green_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/green_candle_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/green_concrete.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/green_concrete_powder.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/green_glazed_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/green_shulker_box.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/green_stained_glass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/green_stained_glass_pane_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/green_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/green_wool.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/grindstone_pivot.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/grindstone_round.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/grindstone_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/hanging_roots.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/hardened_clay.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/hardened_clay_stained_black.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/hardened_clay_stained_blue.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/hardened_clay_stained_brown.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/hardened_clay_stained_cyan.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/hardened_clay_stained_gray.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/hardened_clay_stained_green.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/hardened_clay_stained_light_blue.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/hardened_clay_stained_lime.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/hardened_clay_stained_magenta.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/hardened_clay_stained_orange.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/hardened_clay_stained_pink.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/hardened_clay_stained_purple.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/hardened_clay_stained_red.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/hardened_clay_stained_silver.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/hardened_clay_stained_white.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/hardened_clay_stained_yellow.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/hay_block_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/hay_block_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/heavy_core.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/honey_block_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/honey_block_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/honey_block_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/honeycomb_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/hopper_inside.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/hopper_outside.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/hopper_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/horn_coral.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/horn_coral_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/horn_coral_fan.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/ice.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/ice_packed.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/iron_bars.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/iron_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/iron_chain.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/iron_door_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/iron_door_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/iron_ore.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/iron_trapdoor.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/item_frame.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/itemframe_background.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/jack_o_lantern.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/jigsaw_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/jigsaw_lock.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/jigsaw_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/jigsaw_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/jukebox_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/jukebox_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/jungle_door_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/jungle_door_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/jungle_leaves.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/jungle_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/jungle_log_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/jungle_planks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/jungle_sapling.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/jungle_shelf.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/jungle_trapdoor.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/kelp.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/kelp_plant.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/ladder.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lantern.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lapis_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lapis_ore.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/large_amethyst_bud.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/large_fern_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/large_fern_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lava_flow.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lava_still.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/leaf_litter.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/leaves_acacia.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/leaves_big_oak.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/leaves_birch.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/leaves_jungle.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/leaves_oak.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/leaves_spruce.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/lectern_base.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lectern_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lectern_sides.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lectern_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lever.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_blue_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_blue_candle_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_blue_concrete.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_blue_concrete_powder.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_blue_glazed_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_blue_shulker_box.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_blue_stained_glass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_blue_stained_glass_pane_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_blue_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_blue_wool.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_gray_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_gray_candle_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_gray_concrete.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_gray_concrete_powder.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_gray_glazed_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_gray_shulker_box.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_gray_stained_glass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_gray_stained_glass_pane_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_gray_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/light_gray_wool.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lightning_rod.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lightning_rod_on.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lilac_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lilac_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lily_of_the_valley.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lily_pad.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lime_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lime_candle_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lime_concrete.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lime_concrete_powder.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lime_glazed_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lime_shulker_box.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lime_stained_glass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lime_stained_glass_pane_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lime_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lime_wool.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lodestone_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/lodestone_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/log_acacia.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/log_acacia_top.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/log_big_oak.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/log_big_oak_top.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/log_birch.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/log_birch_top.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/log_jungle.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/log_jungle_top.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/log_oak.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/log_oak_top.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/log_spruce.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/log_spruce_top.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/loom_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/loom_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/loom_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/loom_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/magenta_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/magenta_candle_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/magenta_concrete.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/magenta_concrete_powder.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/magenta_glazed_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/magenta_shulker_box.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/magenta_stained_glass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/magenta_stained_glass_pane_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/magenta_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/magenta_wool.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/magma.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mangrove_door_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mangrove_door_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mangrove_leaves.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mangrove_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mangrove_log_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mangrove_planks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mangrove_propagule.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mangrove_propagule_hanging.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mangrove_roots_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mangrove_roots_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mangrove_shelf.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mangrove_trapdoor.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/medium_amethyst_bud.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/melon_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/melon_stem.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/melon_stem_connected.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/melon_stem_disconnected.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/melon_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mob_spawner.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/moss_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mossy_cobblestone.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mossy_stone_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mud.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mud_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/muddy_mangrove_roots_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/muddy_mangrove_roots_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mushroom_block_inside.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mushroom_block_skin_brown.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/mushroom_block_skin_red.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/mushroom_block_skin_stem.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/mushroom_brown.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/mushroom_red.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/mushroom_stem.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mycelium_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/mycelium_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/nether_brick.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/nether_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/nether_gold_ore.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/nether_portal.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/nether_quartz_ore.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/nether_sprouts.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/nether_wart_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/nether_wart_stage0.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/nether_wart_stage1.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/nether_wart_stage2.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/nether_wart_stage_0.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/nether_wart_stage_1.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/nether_wart_stage_2.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/netherite_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/netherrack.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/note_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/noteblock.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/oak_door_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oak_door_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oak_leaves.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oak_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oak_log_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oak_planks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oak_sapling.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oak_shelf.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oak_trapdoor.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/observer_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/observer_back_lit.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/observer_back_on.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/observer_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/observer_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/observer_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/obsidian.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/ochre_froglight_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/ochre_froglight_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/open_eyeblossom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/open_eyeblossom_emissive.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/orange_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/orange_candle_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/orange_concrete.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/orange_concrete_powder.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/orange_glazed_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/orange_shulker_box.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/orange_stained_glass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/orange_stained_glass_pane_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/orange_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/orange_tulip.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/orange_wool.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oxeye_daisy.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oxidized_chiseled_copper.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oxidized_copper.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oxidized_copper_bars.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oxidized_copper_bulb.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oxidized_copper_bulb_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oxidized_copper_bulb_lit_powered.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oxidized_copper_bulb_powered.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oxidized_copper_chain.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oxidized_copper_door_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oxidized_copper_door_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oxidized_copper_grate.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oxidized_copper_lantern.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oxidized_copper_trapdoor.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oxidized_cut_copper.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/oxidized_lightning_rod.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/packed_ice.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/packed_mud.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pale_hanging_moss.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pale_hanging_moss_tip.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pale_moss_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pale_moss_carpet.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pale_moss_carpet_side_small.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pale_moss_carpet_side_tall.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pale_oak_door_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pale_oak_door_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pale_oak_leaves.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pale_oak_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pale_oak_log_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pale_oak_planks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pale_oak_sapling.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pale_oak_shelf.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pale_oak_trapdoor.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pearlescent_froglight_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pearlescent_froglight_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/peony_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/peony_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pink_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pink_candle_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pink_concrete.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pink_concrete_powder.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pink_glazed_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pink_petals.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pink_petals_stem.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pink_shulker_box.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pink_stained_glass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pink_stained_glass_pane_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pink_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pink_tulip.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pink_wool.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/piston_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/piston_inner.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/piston_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/piston_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/piston_top_normal.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/piston_top_sticky.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pitcher_crop_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pitcher_crop_bottom_stage_1.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pitcher_crop_bottom_stage_2.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pitcher_crop_bottom_stage_3.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pitcher_crop_bottom_stage_4.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pitcher_crop_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pitcher_crop_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pitcher_crop_top_stage_3.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pitcher_crop_top_stage_4.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/planks_acacia.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/planks_big_oak.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/planks_birch.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/planks_jungle.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/planks_oak.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/planks_spruce.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/podzol_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/podzol_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pointed_dripstone_down_base.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pointed_dripstone_down_frustum.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pointed_dripstone_down_middle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pointed_dripstone_down_tip.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pointed_dripstone_down_tip_merge.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pointed_dripstone_up_base.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pointed_dripstone_up_frustum.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pointed_dripstone_up_middle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pointed_dripstone_up_tip.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pointed_dripstone_up_tip_merge.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/polished_andesite.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/polished_basalt_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/polished_basalt_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/polished_blackstone.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/polished_blackstone_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/polished_deepslate.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/polished_diorite.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/polished_granite.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/polished_tuff.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/poppy.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/portal.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/potatoes_stage0.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/potatoes_stage1.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/potatoes_stage2.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/potatoes_stage3.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/potatoes_stage_0.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/potatoes_stage_1.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/potatoes_stage_2.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/potatoes_stage_3.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/potted_azalea_bush_plant.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/potted_azalea_bush_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/potted_azalea_bush_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/potted_flowering_azalea_bush_plant.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/potted_flowering_azalea_bush_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/potted_flowering_azalea_bush_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/powder_snow.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/powered_rail.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/powered_rail_on.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/prismarine.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/prismarine_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/prismarine_dark.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/prismarine_rough.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/pumpkin_face_off.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/pumpkin_face_on.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/pumpkin_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pumpkin_stem.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/pumpkin_stem_connected.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/pumpkin_stem_disconnected.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/pumpkin_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/purple_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/purple_candle_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/purple_concrete.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/purple_concrete_powder.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/purple_glazed_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/purple_shulker_box.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/purple_stained_glass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/purple_stained_glass_pane_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/purple_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/purple_wool.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/purpur_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/purpur_pillar.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/purpur_pillar_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/quartz_block_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/quartz_block_chiseled.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/quartz_block_chiseled_top.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/quartz_block_lines.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/quartz_block_lines_top.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/quartz_block_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/quartz_block_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/quartz_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/quartz_ore.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/quartz_pillar.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/quartz_pillar_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/rail.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/rail_activator.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/rail_activator_powered.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/rail_corner.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/rail_detector.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/rail_detector_powered.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/rail_golden.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/rail_golden_powered.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/rail_normal.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/rail_normal_turned.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/raw_copper_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/raw_gold_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/raw_iron_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/red_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/red_candle_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/red_concrete.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/red_concrete_powder.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/red_glazed_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/red_mushroom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/red_mushroom_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/red_nether_brick.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/red_nether_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/red_sand.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/red_sandstone.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/red_sandstone_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/red_sandstone_carved.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/red_sandstone_normal.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/red_sandstone_smooth.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/red_sandstone_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/red_shulker_box.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/red_stained_glass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/red_stained_glass_pane_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/red_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/red_tulip.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/red_wool.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/redstone_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/redstone_dust_cross.png": {
+      "sourceVersion": "1.8.8"
+    },
+    "blocks/redstone_dust_cross_overlay.png": {
+      "sourceVersion": "1.8.8"
+    },
+    "blocks/redstone_dust_dot.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/redstone_dust_line.png": {
+      "sourceVersion": "1.8.8"
+    },
+    "blocks/redstone_dust_line0.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/redstone_dust_line1.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/redstone_dust_line_overlay.png": {
+      "sourceVersion": "1.8.8"
+    },
+    "blocks/redstone_dust_overlay.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/redstone_lamp.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/redstone_lamp_off.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/redstone_lamp_on.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/redstone_ore.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/redstone_torch.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/redstone_torch_off.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/redstone_torch_on.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/reeds.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/reinforced_deepslate_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/reinforced_deepslate_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/reinforced_deepslate_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/repeater.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/repeater_off.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/repeater_on.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/repeating_command_block_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/repeating_command_block_conditional.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/repeating_command_block_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/repeating_command_block_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/resin_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/resin_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/resin_clump.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/respawn_anchor_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/respawn_anchor_side0.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/respawn_anchor_side1.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/respawn_anchor_side2.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/respawn_anchor_side3.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/respawn_anchor_side4.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/respawn_anchor_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/respawn_anchor_top_off.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/rooted_dirt.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/rose_bush_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/rose_bush_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sand.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sandstone.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sandstone_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sandstone_carved.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/sandstone_normal.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/sandstone_smooth.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/sandstone_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sapling_acacia.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/sapling_birch.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/sapling_jungle.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/sapling_oak.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/sapling_roofed_oak.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/sapling_spruce.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/scaffolding_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/scaffolding_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/scaffolding_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sculk.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sculk_catalyst_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sculk_catalyst_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sculk_catalyst_side_bloom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sculk_catalyst_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sculk_catalyst_top_bloom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sculk_sensor_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sculk_sensor_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sculk_sensor_tendril_active.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sculk_sensor_tendril_inactive.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sculk_sensor_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sculk_shrieker_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sculk_shrieker_can_summon_inner_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sculk_shrieker_inner_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sculk_shrieker_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sculk_shrieker_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sculk_vein.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sea_lantern.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sea_pickle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/seagrass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/short_dry_grass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/short_grass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/shroomlight.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/shulker_box.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/shulker_top_black.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/shulker_top_blue.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/shulker_top_brown.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/shulker_top_cyan.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/shulker_top_gray.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/shulker_top_green.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/shulker_top_light_blue.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/shulker_top_lime.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/shulker_top_magenta.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/shulker_top_orange.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/shulker_top_pink.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/shulker_top_purple.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/shulker_top_red.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/shulker_top_silver.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/shulker_top_white.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/shulker_top_yellow.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/slime.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/slime_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/small_amethyst_bud.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/small_dripleaf_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/small_dripleaf_stem_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/small_dripleaf_stem_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/small_dripleaf_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/smithing_table_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/smithing_table_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/smithing_table_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/smithing_table_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/smoker_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/smoker_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/smoker_front_on.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/smoker_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/smoker_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/smooth_basalt.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/smooth_stone.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/smooth_stone_slab_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sniffer_egg_not_cracked_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sniffer_egg_not_cracked_east.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sniffer_egg_not_cracked_north.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sniffer_egg_not_cracked_south.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sniffer_egg_not_cracked_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sniffer_egg_not_cracked_west.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sniffer_egg_slightly_cracked_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sniffer_egg_slightly_cracked_east.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sniffer_egg_slightly_cracked_north.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sniffer_egg_slightly_cracked_south.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sniffer_egg_slightly_cracked_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sniffer_egg_slightly_cracked_west.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sniffer_egg_very_cracked_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sniffer_egg_very_cracked_east.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sniffer_egg_very_cracked_north.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sniffer_egg_very_cracked_south.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sniffer_egg_very_cracked_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sniffer_egg_very_cracked_west.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/snow.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/soul_campfire_fire.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/soul_campfire_log_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/soul_fire_0.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/soul_fire_1.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/soul_lantern.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/soul_sand.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/soul_soil.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/soul_torch.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/spawner.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sponge.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sponge_wet.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/spore_blossom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/spore_blossom_base.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/spruce_door_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/spruce_door_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/spruce_leaves.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/spruce_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/spruce_log_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/spruce_planks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/spruce_sapling.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/spruce_shelf.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/spruce_trapdoor.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stone.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stone_andesite.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/stone_andesite_smooth.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/stone_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stone_diorite.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/stone_diorite_smooth.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/stone_granite.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/stone_granite_smooth.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/stone_slab_side.png": {
+      "sourceVersion": "1.13.2"
+    },
+    "blocks/stone_slab_top.png": {
+      "sourceVersion": "1.13.2"
+    },
+    "blocks/stonebrick.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/stonebrick_carved.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/stonebrick_cracked.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/stonebrick_mossy.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/stonecutter_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stonecutter_saw.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stonecutter_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stonecutter_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_acacia_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_acacia_log_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_bamboo_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_bamboo_block_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_birch_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_birch_log_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_cherry_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_cherry_log_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_crimson_stem.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_crimson_stem_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_dark_oak_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_dark_oak_log_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_jungle_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_jungle_log_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_mangrove_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_mangrove_log_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_oak_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_oak_log_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_pale_oak_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_pale_oak_log_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_spruce_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_spruce_log_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_warped_stem.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/stripped_warped_stem_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/structure_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/structure_block_corner.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/structure_block_data.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/structure_block_load.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/structure_block_save.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sugar_cane.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sunflower_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sunflower_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sunflower_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sunflower_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/suspicious_gravel_0.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/suspicious_gravel_1.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/suspicious_gravel_2.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/suspicious_gravel_3.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/suspicious_sand_0.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/suspicious_sand_1.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/suspicious_sand_2.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/suspicious_sand_3.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sweet_berry_bush_stage0.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sweet_berry_bush_stage1.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sweet_berry_bush_stage2.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/sweet_berry_bush_stage3.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/tall_dry_grass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/tall_grass_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/tall_grass_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/tall_seagrass_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/tall_seagrass_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/tallgrass.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/target_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/target_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/test_block_accept.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/test_block_fail.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/test_block_log.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/test_block_start.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/test_instance_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/tinted_glass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/tnt_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/tnt_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/tnt_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/torch.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/torch_on.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/torchflower.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/torchflower_crop_stage0.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/torchflower_crop_stage1.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/trapdoor.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/trial_spawner_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/trial_spawner_side_active.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/trial_spawner_side_active_ominous.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/trial_spawner_side_inactive.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/trial_spawner_side_inactive_ominous.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/trial_spawner_top_active.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/trial_spawner_top_active_ominous.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/trial_spawner_top_ejecting_reward.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/trial_spawner_top_ejecting_reward_ominous.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/trial_spawner_top_inactive.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/trial_spawner_top_inactive_ominous.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/trip_wire.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/trip_wire_source.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/tripwire.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/tripwire_hook.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/tube_coral.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/tube_coral_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/tube_coral_fan.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/tuff.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/tuff_bricks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/turtle_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/turtle_egg_slightly_cracked.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/turtle_egg_very_cracked.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/twisting_vines.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/twisting_vines_plant.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/vault_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/vault_bottom_ominous.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/vault_front_ejecting.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/vault_front_ejecting_ominous.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/vault_front_off.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/vault_front_off_ominous.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/vault_front_on.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/vault_front_on_ominous.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/vault_side_off.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/vault_side_off_ominous.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/vault_side_on.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/vault_side_on_ominous.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/vault_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/vault_top_ejecting.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/vault_top_ejecting_ominous.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/vault_top_ominous.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/verdant_froglight_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/verdant_froglight_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/vine.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/warped_door_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/warped_door_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/warped_fungus.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/warped_nylium.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/warped_nylium_side.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/warped_planks.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/warped_roots.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/warped_roots_pot.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/warped_shelf.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/warped_stem.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/warped_stem_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/warped_trapdoor.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/warped_wart_block.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/water_flow.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/water_overlay.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/water_still.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/waterlily.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/weathered_chiseled_copper.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/weathered_copper.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/weathered_copper_bars.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/weathered_copper_bulb.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/weathered_copper_bulb_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/weathered_copper_bulb_lit_powered.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/weathered_copper_bulb_powered.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/weathered_copper_chain.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/weathered_copper_door_bottom.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/weathered_copper_door_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/weathered_copper_grate.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/weathered_copper_lantern.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/weathered_copper_trapdoor.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/weathered_cut_copper.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/weathered_lightning_rod.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/web.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/weeping_vines.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/weeping_vines_plant.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/wet_sponge.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/wheat_stage0.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/wheat_stage1.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/wheat_stage2.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/wheat_stage3.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/wheat_stage4.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/wheat_stage5.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/wheat_stage6.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/wheat_stage7.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/wheat_stage_0.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wheat_stage_1.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wheat_stage_2.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wheat_stage_3.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wheat_stage_4.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wheat_stage_5.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wheat_stage_6.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wheat_stage_7.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/white_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/white_candle_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/white_concrete.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/white_concrete_powder.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/white_glazed_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/white_shulker_box.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/white_stained_glass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/white_stained_glass_pane_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/white_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/white_tulip.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/white_wool.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/wildflowers.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/wildflowers_stem.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/wither_rose.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/wool_colored_black.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wool_colored_blue.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wool_colored_brown.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wool_colored_cyan.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wool_colored_gray.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wool_colored_green.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wool_colored_light_blue.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wool_colored_lime.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wool_colored_magenta.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wool_colored_orange.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wool_colored_pink.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wool_colored_purple.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wool_colored_red.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wool_colored_silver.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wool_colored_white.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/wool_colored_yellow.png": {
+      "sourceVersion": "1.12"
+    },
+    "blocks/yellow_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/yellow_candle_lit.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/yellow_concrete.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/yellow_concrete_powder.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/yellow_glazed_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/yellow_shulker_box.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/yellow_stained_glass.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/yellow_stained_glass_pane_top.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/yellow_terracotta.png": {
+      "sourceVersion": "26.1"
+    },
+    "blocks/yellow_wool.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/acacia_boat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/acacia_chest_boat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/acacia_door.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/acacia_hanging_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/acacia_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/allay_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/amethyst_shard.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/angler_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/apple.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/apple_golden.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/archer_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/armadillo_scute.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/armadillo_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/armor_stand.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/arms_up_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/arrow.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/axolotl_bucket.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/axolotl_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/baked_potato.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bamboo.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bamboo_chest_raft.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bamboo_door.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bamboo_hanging_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bamboo_raft.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bamboo_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/banner_base.png": {
+      "sourceVersion": "1.10"
+    },
+    "items/banner_overlay.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/barrier.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bat_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bed.png": {
+      "sourceVersion": "1.11.2"
+    },
+    "items/bee_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/beef.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/beef_cooked.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/beef_raw.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/beetroot.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/beetroot_seeds.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/beetroot_soup.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bell.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/birch_boat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/birch_chest_boat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/birch_door.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/birch_hanging_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/birch_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/black_bundle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/black_bundle_open_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/black_bundle_open_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/black_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/black_dye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/black_harness.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/blade_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/blaze_powder.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/blaze_rod.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/blaze_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/blue_bundle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/blue_bundle_open_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/blue_bundle_open_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/blue_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/blue_dye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/blue_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/blue_harness.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/boat.png": {
+      "sourceVersion": "1.8.8"
+    },
+    "items/bogged_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bolt_armor_trim_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bone.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bone_meal.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/book.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/book_enchanted.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/book_normal.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/book_writable.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/book_written.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/bordure_indented_banner_pattern.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bow.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bow_pulling_0.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bow_pulling_1.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bow_pulling_2.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bow_standby.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/bowl.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bread.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/breeze_rod.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/breeze_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/brewer_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/brewing_stand.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/brick.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/broken_elytra.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/brown_bundle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/brown_bundle_open_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/brown_bundle_open_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/brown_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/brown_dye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/brown_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/brown_harness.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/brush.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bucket.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bucket_empty.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/bucket_lava.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/bucket_milk.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/bucket_water.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/bundle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bundle_filled.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/bundle_open_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/bundle_open_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/burn_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cactus_green.png": {
+      "sourceVersion": "1.13.2"
+    },
+    "items/cake.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/camel_husk_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/camel_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/campfire.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/carrot.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/carrot_golden.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/carrot_on_a_stick.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cat_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cauldron.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cave_spider_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/chain.png": {
+      "sourceVersion": "1.21.8"
+    },
+    "items/chainmail_boots.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/chainmail_chestplate.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/chainmail_helmet.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/chainmail_leggings.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/charcoal.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cherry_boat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cherry_chest_boat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cherry_door.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cherry_hanging_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cherry_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/chest_minecart.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/chicken.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/chicken_cooked.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/chicken_raw.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/chicken_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/chorus_fruit.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/chorus_fruit_popped.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/clay_ball.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock.png": {
+      "sourceVersion": "1.8.8"
+    },
+    "items/clock_00.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_01.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_02.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_03.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_04.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_05.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_06.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_07.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_08.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_09.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_10.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_11.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_12.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_13.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_14.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_15.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_16.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_17.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_18.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_19.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_20.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_21.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_22.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_23.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_24.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_25.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_26.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_27.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_28.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_29.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_30.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_31.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_32.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_33.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_34.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_35.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_36.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_37.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_38.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_39.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_40.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_41.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_42.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_43.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_44.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_45.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_46.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_47.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_48.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_49.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_50.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_51.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_52.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_53.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_54.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_55.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_56.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_57.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_58.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_59.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_60.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_61.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_62.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/clock_63.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/coal.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/coast_armor_trim_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cocoa_beans.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cod.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cod_bucket.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cod_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/command_block_minecart.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/comparator.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass.png": {
+      "sourceVersion": "1.8.8"
+    },
+    "items/compass_00.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_01.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_02.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_03.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_04.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_05.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_06.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_07.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_08.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_09.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_10.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_11.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_12.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_13.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_14.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_15.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_16.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_17.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_18.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_19.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_20.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_21.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_22.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_23.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_24.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_25.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_26.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_27.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_28.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_29.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_30.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/compass_31.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cooked_beef.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cooked_chicken.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cooked_cod.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cooked_mutton.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cooked_porkchop.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cooked_rabbit.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cooked_salmon.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cookie.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_axe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_boots.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_chain.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_chestplate.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_door.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_golem_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_helmet.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_hoe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_horse_armor.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_ingot.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_lantern.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_leggings.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_nautilus_armor.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_nugget.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_pickaxe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_shovel.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_spear.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_spear_in_hand.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/copper_sword.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cow_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/creaking_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/creeper_banner_pattern.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/creeper_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/crimson_door.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/crimson_hanging_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/crimson_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/crossbow_arrow.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/crossbow_firework.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/crossbow_pulling_0.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/crossbow_pulling_1.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/crossbow_pulling_2.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/crossbow_standby.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cyan_bundle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cyan_bundle_open_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cyan_bundle_open_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cyan_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cyan_dye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/cyan_harness.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/dandelion_yellow.png": {
+      "sourceVersion": "1.13.2"
+    },
+    "items/danger_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/dark_oak_boat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/dark_oak_chest_boat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/dark_oak_door.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/dark_oak_hanging_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/dark_oak_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/diamond.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/diamond_axe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/diamond_boots.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/diamond_chestplate.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/diamond_helmet.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/diamond_hoe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/diamond_horse_armor.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/diamond_leggings.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/diamond_nautilus_armor.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/diamond_pickaxe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/diamond_shovel.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/diamond_spear.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/diamond_spear_in_hand.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/diamond_sword.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/disc_fragment_5.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/dolphin_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/donkey_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/door_acacia.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/door_birch.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/door_dark_oak.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/door_iron.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/door_jungle.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/door_spruce.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/door_wood.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/dragon_breath.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/dried_kelp.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/drowned_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/dune_armor_trim_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/dye_powder_black.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/dye_powder_blue.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/dye_powder_brown.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/dye_powder_cyan.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/dye_powder_gray.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/dye_powder_green.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/dye_powder_light_blue.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/dye_powder_lime.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/dye_powder_magenta.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/dye_powder_orange.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/dye_powder_pink.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/dye_powder_purple.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/dye_powder_red.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/dye_powder_silver.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/dye_powder_white.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/dye_powder_yellow.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/echo_shard.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/elder_guardian_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/elytra.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/elytra_broken.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/emerald.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/empty_armor_slot_boots.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/empty_armor_slot_chestplate.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/empty_armor_slot_helmet.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/empty_armor_slot_leggings.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/empty_armor_slot_shield.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/empty_slot_amethyst_shard.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/empty_slot_axe.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/empty_slot_diamond.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/empty_slot_emerald.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/empty_slot_hoe.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/empty_slot_ingot.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/empty_slot_lapis_lazuli.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/empty_slot_pickaxe.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/empty_slot_quartz.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/empty_slot_redstone_dust.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/empty_slot_shovel.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/empty_slot_smithing_template_armor_trim.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/empty_slot_smithing_template_netherite_upgrade.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/empty_slot_sword.png": {
+      "sourceVersion": "1.21.1"
+    },
+    "items/enchanted_book.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/end_crystal.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/ender_dragon_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/ender_eye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/ender_pearl.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/enderman_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/endermite_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/evoker_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/experience_bottle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/explorer_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/exposed_copper_chain.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/exposed_copper_door.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/exposed_copper_lantern.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/eye_armor_trim_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/feather.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/fermented_spider_eye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/field_masoned_banner_pattern.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/filled_map.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/filled_map_markings.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/fire_charge.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/fireball.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/firefly_bush.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/firework_rocket.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/firework_star.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/firework_star_overlay.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/fireworks.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/fireworks_charge.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/fireworks_charge_overlay.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/fish_clownfish_raw.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/fish_cod_cooked.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/fish_cod_raw.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/fish_pufferfish_raw.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/fish_salmon_cooked.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/fish_salmon_raw.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/fishing_rod.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/fishing_rod_cast.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/fishing_rod_uncast.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/flint.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/flint_and_steel.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/flow_armor_trim_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/flow_banner_pattern.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/flow_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/flower_banner_pattern.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/flower_pot.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/fox_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/friend_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/frog_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/furnace_minecart.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/ghast_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/ghast_tear.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/glass_bottle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/glistering_melon_slice.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/globe_banner_pattern.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/glow_berries.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/glow_ink_sac.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/glow_item_frame.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/glow_squid_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/glowstone_dust.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/goat_horn.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/goat_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/gold_axe.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/gold_boots.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/gold_chestplate.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/gold_helmet.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/gold_hoe.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/gold_horse_armor.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/gold_ingot.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/gold_leggings.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/gold_nugget.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/gold_pickaxe.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/gold_shovel.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/gold_sword.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/golden_apple.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/golden_axe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/golden_boots.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/golden_carrot.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/golden_chestplate.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/golden_helmet.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/golden_hoe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/golden_horse_armor.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/golden_leggings.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/golden_nautilus_armor.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/golden_pickaxe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/golden_shovel.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/golden_spear.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/golden_spear_in_hand.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/golden_sword.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/gray_bundle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/gray_bundle_open_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/gray_bundle_open_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/gray_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/gray_dye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/gray_harness.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/green_bundle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/green_bundle_open_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/green_bundle_open_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/green_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/green_dye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/green_harness.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/guardian_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/gunpowder.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/guster_banner_pattern.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/guster_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/happy_ghast_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/heart_of_the_sea.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/heart_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/heartbreak_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/hoglin_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/honey_bottle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/honeycomb.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/hopper.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/hopper_minecart.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/horse_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/host_armor_trim_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/howl_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/husk_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/ink_sac.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/iron_axe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/iron_boots.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/iron_chain.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/iron_chestplate.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/iron_door.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/iron_golem_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/iron_helmet.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/iron_hoe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/iron_horse_armor.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/iron_ingot.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/iron_leggings.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/iron_nautilus_armor.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/iron_nugget.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/iron_pickaxe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/iron_shovel.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/iron_spear.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/iron_spear_in_hand.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/iron_sword.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/item_frame.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/jungle_boat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/jungle_chest_boat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/jungle_door.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/jungle_hanging_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/jungle_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/kelp.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/knowledge_book.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/lantern.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/lapis_lazuli.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/lava_bucket.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/lead.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/leaf_litter.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/leather.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/leather_boots.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/leather_boots_overlay.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/leather_chestplate.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/leather_chestplate_overlay.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/leather_helmet.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/leather_helmet_overlay.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/leather_horse_armor.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/leather_horse_armor_overlay.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/leather_leggings.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/leather_leggings_overlay.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_00.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_01.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_02.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_03.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_04.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_05.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_06.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_07.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_08.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_09.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_10.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_11.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_12.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_13.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_14.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_15.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_blue_bundle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_blue_bundle_open_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_blue_bundle_open_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_blue_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_blue_dye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_blue_harness.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_gray_bundle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_gray_bundle_open_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_gray_bundle_open_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_gray_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_gray_dye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/light_gray_harness.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/lime_bundle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/lime_bundle_open_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/lime_bundle_open_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/lime_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/lime_dye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/lime_harness.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/lingering_potion.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/llama_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/mace.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/magenta_bundle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/magenta_bundle_open_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/magenta_bundle_open_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/magenta_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/magenta_dye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/magenta_harness.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/magma_cream.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/magma_cube_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/mangrove_boat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/mangrove_chest_boat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/mangrove_door.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/mangrove_hanging_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/mangrove_propagule.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/mangrove_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/map.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/map_empty.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/map_filled.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/map_filled_markings.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/melon.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/melon_seeds.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/melon_slice.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/melon_speckled.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/milk_bucket.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/minecart.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/minecart_chest.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/minecart_command_block.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/minecart_furnace.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/minecart_hopper.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/minecart_normal.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/minecart_tnt.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/miner_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/mojang_banner_pattern.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/mooshroom_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/mourner_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/mule_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/mushroom_stew.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_11.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_13.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_5.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_blocks.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_cat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_chirp.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_creator.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_creator_music_box.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_far.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_lava_chicken.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_mall.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_mellohi.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_otherside.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_pigstep.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_precipice.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_relic.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_stal.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_strad.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_tears.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_wait.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/music_disc_ward.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/mutton.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/mutton_cooked.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/mutton_raw.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/name_tag.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/nautilus_shell.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/nautilus_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/nether_brick.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/nether_sprouts.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/nether_star.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/nether_wart.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/netherbrick.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/netherite_axe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/netherite_boots.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/netherite_chestplate.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/netherite_helmet.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/netherite_hoe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/netherite_horse_armor.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/netherite_ingot.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/netherite_leggings.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/netherite_nautilus_armor.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/netherite_pickaxe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/netherite_scrap.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/netherite_shovel.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/netherite_spear.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/netherite_spear_in_hand.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/netherite_sword.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/netherite_upgrade_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/oak_boat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/oak_chest_boat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/oak_door.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/oak_hanging_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/oak_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/ocelot_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/ominous_bottle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/ominous_trial_key.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/orange_bundle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/orange_bundle_open_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/orange_bundle_open_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/orange_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/orange_dye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/orange_harness.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/oxidized_copper_chain.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/oxidized_copper_door.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/oxidized_copper_lantern.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/painting.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pale_oak_boat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pale_oak_chest_boat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pale_oak_door.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pale_oak_hanging_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pale_oak_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/panda_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/paper.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/parched_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/parrot_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/phantom_membrane.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/phantom_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pig_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/piglin_banner_pattern.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/piglin_brute_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/piglin_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pillager_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pink_bundle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pink_bundle_open_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pink_bundle_open_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pink_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pink_dye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pink_harness.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pink_petals.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pitcher_plant.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pitcher_pod.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/plenty_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pointed_dripstone.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/poisonous_potato.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/polar_bear_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/popped_chorus_fruit.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/porkchop.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/porkchop_cooked.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/porkchop_raw.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/potato.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/potato_baked.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/potato_poisonous.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/potion.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/potion_bottle_drinkable.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/potion_bottle_empty.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/potion_bottle_lingering.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/potion_bottle_splash.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/potion_overlay.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/powder_snow_bucket.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/prismarine_crystals.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/prismarine_shard.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/prize_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pufferfish.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pufferfish_bucket.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pufferfish_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pumpkin_pie.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/pumpkin_seeds.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/purple_bundle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/purple_bundle_open_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/purple_bundle_open_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/purple_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/purple_dye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/purple_harness.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/quartz.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/quiver.png": {
+      "sourceVersion": "1.8.8"
+    },
+    "items/rabbit.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/rabbit_cooked.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/rabbit_foot.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/rabbit_hide.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/rabbit_raw.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/rabbit_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/rabbit_stew.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/raiser_armor_trim_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/ravager_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/raw_copper.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/raw_gold.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/raw_iron.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/record_11.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/record_13.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/record_blocks.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/record_cat.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/record_chirp.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/record_far.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/record_mall.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/record_mellohi.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/record_stal.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/record_strad.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/record_wait.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/record_ward.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/recovery_compass_00.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_01.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_02.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_03.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_04.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_05.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_06.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_07.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_08.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_09.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_10.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_11.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_12.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_13.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_14.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_15.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_16.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_17.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_18.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_19.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_20.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_21.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_22.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_23.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_24.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_25.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_26.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_27.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_28.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_29.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_30.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/recovery_compass_31.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/red_bundle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/red_bundle_open_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/red_bundle_open_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/red_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/red_dye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/red_harness.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/redstone.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/redstone_dust.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/reeds.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/repeater.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/resin_brick.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/resin_clump.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/rib_armor_trim_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/rose_red.png": {
+      "sourceVersion": "1.13.2"
+    },
+    "items/rotten_flesh.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/ruby.png": {
+      "sourceVersion": "1.16.4"
+    },
+    "items/saddle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/salmon.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/salmon_bucket.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/salmon_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/scrape_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/scute.png": {
+      "sourceVersion": "1.20.2"
+    },
+    "items/sea_pickle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/seagrass.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/seeds_melon.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/seeds_pumpkin.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/seeds_wheat.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/sentry_armor_trim_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/shaper_armor_trim_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/sheaf_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/shears.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/sheep_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/shelter_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/shield.png": {
+      "sourceVersion": "official-gui-render"
+    },
+    "items/shulker_shell.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/shulker_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/sign.png": {
+      "sourceVersion": "1.13.2"
+    },
+    "items/silence_armor_trim_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/silverfish_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/skeleton_horse_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/skeleton_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/skull_banner_pattern.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/skull_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/slime_ball.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/slime_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/slimeball.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/sniffer_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/sniffer_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/snort_pottery_sherd.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/snout_armor_trim_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/snow_golem_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/snowball.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/soul_campfire.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/soul_lantern.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/spawn_egg.png": {
+      "sourceVersion": "1.21.4"
+    },
+    "items/spawn_egg_overlay.png": {
+      "sourceVersion": "1.21.4"
+    },
+    "items/spectral_arrow.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/spider_eye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/spider_eye_fermented.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/spider_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/spire_armor_trim_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/splash_potion.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/spruce_boat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/spruce_chest_boat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/spruce_door.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/spruce_hanging_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/spruce_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/spyglass.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/spyglass_model.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/squid_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/stick.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/stone_axe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/stone_hoe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/stone_pickaxe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/stone_shovel.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/stone_spear.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/stone_spear_in_hand.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/stone_sword.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/stray_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/strider_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/string.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/structure_void.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/sugar.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/sugar_cane.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/suspicious_stew.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/sweet_berries.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/tadpole_bucket.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/tadpole_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/tide_armor_trim_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/tipped_arrow_base.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/tipped_arrow_head.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/tnt_minecart.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/torchflower_seeds.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/totem.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/totem_of_undying.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/trader_llama_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/trial_key.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/trident.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/tropical_fish.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/tropical_fish_bucket.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/tropical_fish_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/turtle_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/turtle_helmet.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/turtle_scute.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/turtle_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/vex_armor_trim_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/vex_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/villager_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/vindicator_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wandering_trader_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/ward_armor_trim_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/warden_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/warped_door.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/warped_fungus_on_a_stick.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/warped_hanging_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/warped_sign.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/water_bucket.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wayfinder_armor_trim_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/weathered_copper_chain.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/weathered_copper_door.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/weathered_copper_lantern.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wheat.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wheat_seeds.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/white_bundle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/white_bundle_open_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/white_bundle_open_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/white_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/white_dye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/white_harness.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wild_armor_trim_smithing_template.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wildflowers.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wind_charge.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/witch_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wither_skeleton_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wither_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wolf_armor.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wolf_armor_overlay.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wolf_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wood_axe.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/wood_hoe.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/wood_pickaxe.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/wood_shovel.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/wood_sword.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/wooden_armorstand.png": {
+      "sourceVersion": "1.12"
+    },
+    "items/wooden_axe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wooden_hoe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wooden_pickaxe.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wooden_shovel.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wooden_spear.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wooden_spear_in_hand.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/wooden_sword.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/writable_book.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/written_book.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/yellow_bundle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/yellow_bundle_open_back.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/yellow_bundle_open_front.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/yellow_candle.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/yellow_dye.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/yellow_harness.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/zoglin_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/zombie_horse_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/zombie_nautilus_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/zombie_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/zombie_villager_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    },
+    "items/zombified_piglin_spawn_egg.png": {
+      "sourceVersion": "26.1"
+    }
+  }
+}

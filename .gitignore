@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# TypeScript & Packaging Build Output
+dist/
+out/
+
+# Logs & Debugging
+*.log
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# Local Workspace, Scratch & Exports
+.local/
+
+# Release Signing / Secrets
+.env
+.env.*
+*.pfx
+*.p12
+*.pem
+*.key
+certs/
