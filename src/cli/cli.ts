@@ -18,7 +18,7 @@ export const program = new Command();
 program
   .name("villager-editor")
   .description("Minecraft Bedrock Edition Villager & Trade Editor CLI")
-  .version("1.0.0");
+  .version("1.0.1");
 
 // Command: list
 program

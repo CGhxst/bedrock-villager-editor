@@ -1,6 +1,6 @@
 {
   "name": "bedrock-villager-editor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "productName": "Bedrock Villager Editor",
   "description": "Unofficial desktop and CLI villager editor for Minecraft: Bedrock Edition (1.14 - 1.21.x) with patch-oriented NBT preservation, backups, rollback, trade editing, and a read-only world map.",
   "main": "dist/src/electron/main.js",

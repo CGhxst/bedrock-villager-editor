@@ -98,7 +98,25 @@ window.addEventListener("DOMContentLoaded", async () => {
 
   setupEventListeners();
   loadWorldPicker();
+  checkFirstRunDisclaimer();
 });
+
+function isDisclaimerAccepted() {
+  try {
+    return localStorage.getItem("bve_disclaimer_accepted_v1") === "true";
+  } catch {
+    return false;
+  }
+}
+
+function checkFirstRunDisclaimer() {
+  if (!isDisclaimerAccepted()) {
+    const modal = document.getElementById("disclaimerModal");
+    if (modal && typeof modal.showModal === "function") {
+      modal.showModal();
+    }
+  }
+}
 
 function enterRestartRequiredState(message) {
   localRestartRequired = true;
@@ -504,8 +522,10 @@ function updateWorldMapSelectedLabel() {
     return;
   }
 
-  const name = selected.customName || "Unnamed Villager";
-  label.textContent = `${name} - ${selected.professionDisplayName} - X ${Math.floor(selected.position.x)}, Z ${Math.floor(selected.position.z)}`;
+  const defaultName = selected.isZombie ? `Zombie ${selected.professionDisplayName}` : "Unnamed Villager";
+  const name = selected.customName || defaultName;
+  const zombiePrefix = selected.isZombie ? "[Zombie] " : "";
+  label.textContent = `${zombiePrefix}${name} - ${selected.professionDisplayName} - X ${Math.floor(selected.position.x)}, Z ${Math.floor(selected.position.z)}`;
 }
 
 function updateWorldMapZoomLabel() {
@@ -773,8 +793,9 @@ function ensureVisibleWorldMapTiles() {
 }
 
 function getWorldMapProfessionIcon(villager) {
-  const professionId = villager.professionKnown ? villager.profession : "unknown";
-  const src = getProfessionAssetUrl(professionId);
+  const src = villager.isZombie
+    ? `${ASSET_ITEMS_DIR}zombie_villager_spawn_egg.png`
+    : getProfessionAssetUrl(villager.professionKnown ? villager.profession : "unknown");
   const existing = worldMapState.iconCache.get(src);
   if (existing) return existing;
 
@@ -869,10 +890,14 @@ function drawWorldMapVillagers(ctx) {
 
     ctx.beginPath();
     ctx.arc(screen.x, screen.y, radius, 0, Math.PI * 2);
-    ctx.fillStyle = selected ? "#10b981" : "#334155";
+    if (selected) {
+      ctx.fillStyle = villager.isZombie ? "#059669" : "#10b981";
+    } else {
+      ctx.fillStyle = villager.isZombie ? "#1e3a29" : "#334155";
+    }
     ctx.fill();
     ctx.lineWidth = selected ? 3 : 2;
-    ctx.strokeStyle = "#ffffff";
+    ctx.strokeStyle = villager.isZombie ? "#4ade80" : "#ffffff";
     ctx.stroke();
 
     const icon = getWorldMapProfessionIcon(villager);
@@ -1003,7 +1028,9 @@ function updateWorldMapTooltip(event) {
 
   const v = marker.villager;
   const dirtySuffix = v.isDirty ? " • Unsaved position/state" : "";
-  tooltip.textContent = `${v.customName || "Unnamed Villager"}\n${v.professionDisplayName} • Tier ${v.careerLevel}${dirtySuffix}\nX ${Math.floor(v.position.x)}  Y ${Math.floor(v.position.y)}  Z ${Math.floor(v.position.z)}`;
+  const zombieTag = v.isZombie ? (v.isConverting ? "[Zombie • Converting] " : "[Zombie] ") : "";
+  const defaultName = v.isZombie ? `Zombie ${v.professionDisplayName}` : "Unnamed Villager";
+  tooltip.textContent = `${zombieTag}${v.customName || defaultName}\n${v.professionDisplayName} • Tier ${v.careerLevel}${dirtySuffix}\nX ${Math.floor(v.position.x)}  Y ${Math.floor(v.position.y)}  Z ${Math.floor(v.position.z)}`;
 
   const viewportRect = viewport.getBoundingClientRect();
   const x = Math.min(viewportRect.width - 280, Math.max(8, event.clientX - viewportRect.left + 14));
@@ -1265,6 +1292,27 @@ function setupEventListeners() {
   document.getElementById("btnRefreshWorlds").addEventListener("click", loadWorldPicker);
   document.getElementById("btnBrowseFolder").addEventListener("click", handleBrowseFolder);
   document.getElementById("btnSwitchWorld").addEventListener("click", handleSwitchWorld);
+
+  const btnAcceptDisclaimer = document.getElementById("btnAcceptDisclaimer");
+  if (btnAcceptDisclaimer) {
+    btnAcceptDisclaimer.addEventListener("click", () => {
+      try {
+        localStorage.setItem("bve_disclaimer_accepted_v1", "true");
+      } catch (err) {
+        console.warn("Could not save disclaimer acceptance:", err);
+      }
+      document.getElementById("disclaimerModal")?.close();
+    });
+  }
+
+  const disclaimerModal = document.getElementById("disclaimerModal");
+  if (disclaimerModal) {
+    disclaimerModal.addEventListener("cancel", (e) => {
+      if (!isDisclaimerAccepted()) {
+        e.preventDefault();
+      }
+    });
+  }
 
   // Read-only world-map controls
   document.getElementById("btnOpenWorldMap").addEventListener("click", openWorldMap);
@@ -2120,7 +2168,9 @@ function renderVillagersList() {
       const cleanName = stripMinecraftFormatting(rawName).toLowerCase();
       const prof = v.professionDisplayName.toLowerCase();
       const id = v.sessionVillagerId.toLowerCase();
-      if (!cleanName.includes(query) && !rawName.toLowerCase().includes(query) && !prof.includes(query) && !id.includes(query)) return false;
+      const zombieTerms = v.isZombie ? `zombie zombie villager zombie ${prof}` : "";
+      const searchBlob = `${cleanName} ${rawName.toLowerCase()} ${prof} ${id} ${zombieTerms}`;
+      if (!searchBlob.includes(query)) return false;
     }
 
     if (!villagerMatchesProfessionFilter(v, selectedProfessionFilter)) {
@@ -2144,12 +2194,17 @@ function renderVillagersList() {
 
   for (const v of filtered) {
     const item = document.createElement("div");
-    item.className = `villager-item ${v.sessionVillagerId === selectedVillagerId ? "active" : ""}`;
+    const zombieClass = v.isZombie ? "is-zombie" : "";
+    item.className = `villager-item ${v.sessionVillagerId === selectedVillagerId ? "active" : ""} ${zombieClass}`.trim();
     item.dataset.villagerId = v.sessionVillagerId;
     item.setAttribute("role", "button");
     item.tabIndex = 0;
 
-    const icon = createProfessionIconElement(v.professionKnown ? v.profession : "unknown");
+    const icon = createProfessionIconElement(
+      v.professionKnown ? v.profession : "unknown",
+      "prof-icon",
+      v.isZombie
+    );
 
     const info = document.createElement("div");
     info.className = "villager-item-info";
@@ -2157,11 +2212,26 @@ function renderVillagersList() {
     const titleRow = document.createElement("div");
     titleRow.className = "villager-item-title-row";
 
-    const name = document.createElement("strong");
-    renderMinecraftFormattedText(v.customName || v.professionDisplayName, name);
-    name.title = stripMinecraftFormatting(v.customName || v.professionDisplayName);
+    const nameGroup = document.createElement("div");
+    nameGroup.className = "villager-item-name-group";
 
-    titleRow.appendChild(name);
+    const name = document.createElement("strong");
+    const rawDisplayName = v.customName || (v.isZombie ? `Zombie ${v.professionDisplayName}` : v.professionDisplayName);
+    renderMinecraftFormattedText(rawDisplayName, name);
+    name.title = stripMinecraftFormatting(rawDisplayName);
+    nameGroup.appendChild(name);
+
+    if (v.isZombie) {
+      const zombieTag = document.createElement("span");
+      zombieTag.className = "badge-zombie-tag";
+      zombieTag.textContent = v.isConverting ? "Zombie (Converting)" : "Zombie";
+      zombieTag.title = v.isConverting
+        ? `Zombie Villager converting (${v.conversionTime}s remaining)`
+        : "Zombie Villager";
+      nameGroup.appendChild(zombieTag);
+    }
+
+    titleRow.appendChild(nameGroup);
 
     if (v.isDirty) {
       const dirtyDot = document.createElement("span");
@@ -2172,7 +2242,11 @@ function renderVillagersList() {
 
     const meta = document.createElement("span");
     meta.className = "villager-item-meta";
-    meta.textContent = `${v.careerLevelName} • ${v.trades.length} trade(s)`;
+    if (v.isZombie && v.customName) {
+      meta.textContent = `${v.professionDisplayName} • ${v.careerLevelName} • ${v.trades.length} trade(s)`;
+    } else {
+      meta.textContent = `${v.careerLevelName} • ${v.trades.length} trade(s)`;
+    }
 
     info.appendChild(titleRow);
     info.appendChild(meta);
@@ -2208,10 +2282,19 @@ function renderStats() {
   chipTotal.textContent = `Total: ${total}`;
   container.appendChild(chipTotal);
 
+  let zombieCount = 0;
   const profCounts = {};
   for (const v of activeVillagers) {
+    if (v.isZombie) zombieCount++;
     const p = v.professionKnown ? v.profession : "unknown";
     profCounts[p] = (profCounts[p] || 0) + 1;
+  }
+
+  if (zombieCount > 0) {
+    const chipZombie = document.createElement("span");
+    chipZombie.className = "badge badge-zombie-summary";
+    chipZombie.textContent = `Zombies: ${zombieCount}`;
+    container.appendChild(chipZombie);
   }
 
   for (const [prof, count] of Object.entries(profCounts)) {
@@ -2234,8 +2317,21 @@ function renderVillagerDetail(v) {
   // Top Bar
   const iconWrapper = document.getElementById("detailProfIconWrapper");
   iconWrapper.innerHTML = "";
-  iconWrapper.appendChild(createProfessionIconElement(v.professionKnown ? v.profession : "unknown"));
+  iconWrapper.appendChild(
+    createProfessionIconElement(
+      v.professionKnown ? v.profession : "unknown",
+      "prof-icon",
+      v.isZombie
+    )
+  );
+  if (v.isZombie) {
+    iconWrapper.classList.add("is-zombie");
+  } else {
+    iconWrapper.classList.remove("is-zombie");
+  }
 
+  const defaultPlaceholder = v.isZombie ? `Zombie ${v.professionDisplayName}` : "Unnamed Villager";
+  document.getElementById("editVillagerName").placeholder = defaultPlaceholder;
   document.getElementById("editVillagerName").value = v.customName || "";
   document.getElementById("villagerIdBadge").textContent = v.sessionVillagerId;
 
@@ -2244,12 +2340,17 @@ function renderVillagerDetail(v) {
 
   const statusBadge = document.getElementById("badgeStatus");
   if (v.isZombie) {
-    statusBadge.textContent = "Zombie Villager";
+    statusBadge.textContent = v.isConverting
+      ? `Zombie (Converting: ${v.conversionTime}s)`
+      : "Zombie Villager";
+    statusBadge.className = "badge badge-meta badge-zombie";
     statusBadge.classList.remove("hidden");
   } else if (v.isCured) {
     statusBadge.textContent = "Cured";
+    statusBadge.className = "badge badge-meta badge-cured";
     statusBadge.classList.remove("hidden");
   } else {
+    statusBadge.className = "badge badge-meta";
     statusBadge.classList.add("hidden");
   }
 

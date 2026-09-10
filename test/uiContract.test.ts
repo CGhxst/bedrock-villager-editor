@@ -1086,4 +1086,92 @@ test("UI CONTRACT 41: Release packaging never exposes repository signing secrets
   );
 });
 
+test("UI CONTRACT 42: Zombie villager visual distinction in sidebar, detail, search, and world map", () => {
+  const appJs = fs.readFileSync(path.join(process.cwd(), "public", "app.js"), "utf8");
+  const iconsJs = fs.readFileSync(path.join(process.cwd(), "public", "icons.js"), "utf8");
+  const styleCss = fs.readFileSync(path.join(process.cwd(), "public", "style.css"), "utf8");
+
+  // 1. icons.js supports isZombie and references zombie_villager_spawn_egg.png
+  assert.ok(
+    iconsJs.includes("zombie_villager_spawn_egg.png"),
+    "icons.js must reference zombie_villager_spawn_egg.png"
+  );
+  assert.ok(
+    iconsJs.includes("isZombie = false"),
+    "createProfessionIconElement must support isZombie parameter"
+  );
+
+  // 2. app.js list rendering: badge-zombie-tag, is-zombie class, Zombie prefix when unnamed, search matching
+  assert.ok(
+    appJs.includes("badge-zombie-tag"),
+    "app.js must render badge-zombie-tag for zombie villagers"
+  );
+  assert.ok(
+    appJs.includes('v.isZombie ? "is-zombie" : ""'),
+    "app.js must apply is-zombie class to villager items"
+  );
+  assert.ok(
+    appJs.includes("v.isZombie ? `Zombie ${v.professionDisplayName}`"),
+    "app.js must prefix default name with Zombie for zombie villagers"
+  );
+  assert.ok(
+    appJs.includes("zombieTerms"),
+    "app.js search must include zombie terms for zombie villagers"
+  );
+
+  // 3. app.js detail panel: badge-zombie class, converting status display, is-zombie icon wrapper
+  assert.ok(
+    appJs.includes("badge-zombie"),
+    "app.js must apply badge-zombie class to statusBadge"
+  );
+  assert.ok(
+    appJs.includes('iconWrapper.classList.add("is-zombie")'),
+    "app.js must mark detail icon wrapper as is-zombie"
+  );
+
+  // 4. app.js world map: zombie egg icon and zombie marker styling
+  assert.ok(
+    appJs.includes("zombie_villager_spawn_egg.png"),
+    "app.js world map must load zombie_villager_spawn_egg.png for zombie villagers"
+  );
+
+  // 5. style.css: has .villager-item.is-zombie, .badge-zombie-tag, .badge-zombie
+  assert.ok(
+    styleCss.includes(".villager-item.is-zombie"),
+    "style.css must define .villager-item.is-zombie"
+  );
+  assert.ok(
+    styleCss.includes(".badge-zombie-tag"),
+    "style.css must define .badge-zombie-tag"
+  );
+  assert.ok(
+    styleCss.includes(".badge-zombie"),
+    "style.css must define .badge-zombie"
+  );
+});
+
+test("UI CONTRACT 43: First-run safety disclaimer modal and localStorage persistence contract", () => {
+  const html = fs.readFileSync(path.join(process.cwd(), "public", "index.html"), "utf8");
+  const appJs = fs.readFileSync(path.join(process.cwd(), "public", "app.js"), "utf8");
+  const styleCss = fs.readFileSync(path.join(process.cwd(), "public", "style.css"), "utf8");
+
+  // 1. DOM IDs exist in index.html
+  assert.ok(html.includes('id="disclaimerModal"'), "index.html must include disclaimerModal");
+  assert.ok(html.includes('id="btnAcceptDisclaimer"'), "index.html must include btnAcceptDisclaimer");
+
+  // 2. Safety advisory text exists
+  assert.ok(html.includes("Direct Save Modification"), "index.html must explain direct save modification");
+  assert.ok(html.includes("Keep Independent Backups"), "index.html must remind user to keep backups");
+  assert.ok(html.includes("NOT AN OFFICIAL MINECRAFT PRODUCT"), "index.html must include official brand notice");
+
+  // 3. app.js handles checkFirstRunDisclaimer and stores acceptance in localStorage
+  assert.ok(appJs.includes("checkFirstRunDisclaimer"), "app.js must define and call checkFirstRunDisclaimer");
+  assert.ok(appJs.includes("bve_disclaimer_accepted_v1"), "app.js must persist acceptance key in localStorage");
+  assert.ok(appJs.includes("btnAcceptDisclaimer"), "app.js must bind click listener to btnAcceptDisclaimer");
+
+  // 4. style.css defines disclaimer styles
+  assert.ok(styleCss.includes(".disclaimer-body"), "style.css must define .disclaimer-body");
+  assert.ok(styleCss.includes(".disclaimer-list"), "style.css must define .disclaimer-list");
+});
+
 

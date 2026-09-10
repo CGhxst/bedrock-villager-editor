@@ -572,6 +572,22 @@ textarea:focus-visible,
   background: rgba(16, 185, 129, 0.1);
 }
 
+.villager-item.is-zombie {
+  border-left: 3px solid #4a853b;
+}
+
+.villager-item.is-zombie:hover {
+  border-color: var(--border-hover);
+  border-left-color: #5ea84c;
+  background: #15221b;
+}
+
+.villager-item.is-zombie.active {
+  border-color: #4a853b;
+  border-left-color: #6ee7b7;
+  background: rgba(46, 117, 46, 0.2);
+}
+
 .villager-item-info {
   flex: 1;
   min-width: 0;
@@ -585,6 +601,29 @@ textarea:focus-visible,
   align-items: center;
   justify-content: space-between;
   gap: 6px;
+}
+
+.villager-item-name-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.badge-zombie-tag {
+  display: inline-flex;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: rgba(46, 117, 46, 0.35);
+  border: 1px solid #4a853b;
+  color: #6ee7b7;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
 }
 
 .villager-item-title-row strong {
@@ -668,6 +707,11 @@ textarea:focus-visible,
   image-rendering: pixelated;
 }
 
+.detail-prof-icon-wrapper.is-zombie {
+  border-color: #4a853b;
+  background: rgba(46, 117, 46, 0.15);
+}
+
 .detail-info-main {
   flex: 1;
   min-width: 200px;
@@ -722,6 +766,35 @@ textarea:focus-visible,
   background: var(--bg-surface-elevated);
   border: 1px solid var(--border-color);
   color: var(--text-muted);
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.badge-zombie {
+  background: rgba(46, 117, 46, 0.3);
+  border: 1px solid #4a853b;
+  color: #6ee7b7;
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.badge-cured {
+  background: rgba(59, 130, 246, 0.15);
+  border: 1px solid rgba(59, 130, 246, 0.4);
+  color: #93c5fd;
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.badge-zombie-summary {
+  background: rgba(46, 117, 46, 0.25);
+  border: 1px solid #4a853b;
+  color: #6ee7b7;
   font-size: 11px;
   padding: 2px 8px;
   border-radius: 4px;
@@ -1226,6 +1299,34 @@ textarea:focus-visible,
   font-size: 16px;
   font-weight: 700;
   color: #fff;
+}
+
+/* First-Run Disclaimer Modal */
+.disclaimer-body {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-main);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.disclaimer-lead {
+  color: var(--text-main);
+  font-weight: 500;
+}
+
+.disclaimer-list {
+  list-style: disc;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--text-muted);
+}
+
+.disclaimer-list strong {
+  color: var(--text-main);
 }
 
 .modal-search-row {

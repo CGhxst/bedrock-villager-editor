@@ -159,11 +159,11 @@ function createItemIconElement(itemId, altText = "", customClass = "item-icon") 
   return img;
 }
 
-function createProfessionIconElement(professionId, customClass = "prof-icon") {
+function createProfessionIconElement(professionId, customClass = "prof-icon", isZombie = false) {
   const img = document.createElement("img");
   img.className = customClass;
-  img.alt = professionId;
-  img.src = getProfessionAssetUrl(professionId);
+  img.alt = isZombie ? "Zombie Villager" : (professionId || "villager");
+  img.src = isZombie ? `${ASSET_ITEMS_DIR}zombie_villager_spawn_egg.png` : getProfessionAssetUrl(professionId);
   applyImageFallback(img, `${ASSET_BLOCKS_DIR}lectern_top.png`);
   return img;
 }
