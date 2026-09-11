@@ -8,6 +8,10 @@ import {
   unregisterIpcHandlers
 } from "../main/ipcHandlers";
 import { disposeStorageBeforeWindowDestroy } from "./windowCloseCleanup";
+import { configureInstallationUserData } from "./userDataPath";
+
+// Enforce strict per-installation data isolation before any storage or window initializes
+configureInstallationUserData(app);
 
 let mainWindow: BrowserWindow | null = null;
 let ipcController: IpcHandlerController | null = null;
